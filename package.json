@@ -1,0 +1,26 @@
+{
+  "name": "cryptopals",
+  "version": "1.0.0",
+  "description": "The Matasano Crypto Challenges https://cryptopals.com/",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon --watch '*.ts'  --exec ts-node",
+    "ts-node": "ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panaC/cryptopals.git"
+  },
+  "author": "pleroux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panaC/cryptopals/issues"
+  },
+  "homepage": "https://github.com/panaC/cryptopals#readme",
+  "devDependencies": {
+    "@types/node": "^13.9.3",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  }
+}
